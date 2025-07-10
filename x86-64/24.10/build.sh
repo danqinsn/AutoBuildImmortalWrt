@@ -35,9 +35,9 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-proto-wireguard
-PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn
-PACKAGES="$PACKAGES luci-i18n-msd_lite-zh-cn
-PACKAGES="$PACKAGES luci-i18n-omcproxy-zh-cn
+PACKAGES="$PACKAGES luci-app-mwan3
+PACKAGES="$PACKAGES luci-app-msd_lite
+PACKAGES="$PACKAGES luci-app-omcproxy
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
